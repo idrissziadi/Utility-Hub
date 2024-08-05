@@ -10,6 +10,8 @@ import QRGenerator from './pages/QRGenerator';
 import QuoteGenerator from './pages/QuoteGenerator';
 import Dictionary from './pages/Dictionary';
 import AvatarGenerator from './pages/AvatarGenerator';
+import { Language } from '@mui/icons-material';
+import LanguageTranslator from './pages/LanguageTranslator';
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route path='quotegenerator' Component={QuoteGenerator} />
         <Route path='dictionary' Component={Dictionary} />
         <Route path='avatargenerator' Component={AvatarGenerator} />
+        <Route path='languagetranslator' Component={LanguageTranslator} />
       </Routes>
     </BrowserRouter>
     </ThemeProvider>
