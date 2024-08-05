@@ -9,6 +9,7 @@ import MemeGenerator from './pages/MemeGenerator';
 import QRGenerator from './pages/QRGenerator';
 import QuoteGenerator from './pages/QuoteGenerator';
 import Dictionary from './pages/Dictionary';
+import AvatarGenerator from './pages/AvatarGenerator';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='qrgenerator' Component={QRGenerator} />
         <Route path='quotegenerator' Component={QuoteGenerator} />
         <Route path='dictionary' Component={Dictionary} />
+        <Route path='avatargenerator' Component={AvatarGenerator} />
       </Routes>
     </BrowserRouter>
     </ThemeProvider>
