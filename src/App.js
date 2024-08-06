@@ -12,6 +12,9 @@ import Dictionary from './pages/Dictionary';
 import AvatarGenerator from './pages/AvatarGenerator';
 import { Language } from '@mui/icons-material';
 import LanguageTranslator from './pages/LanguageTranslator';
+import Timer from './pages/Timer';
+import CurrencyConverter from './pages/CurrencyConverter';
+import CryptoCurrency from './pages/CryptoCurrency';
 
 function App() {
   return (
@@ -28,6 +31,9 @@ function App() {
         <Route path='dictionary' Component={Dictionary} />
         <Route path='avatargenerator' Component={AvatarGenerator} />
         <Route path='languagetranslator' Component={LanguageTranslator} />
+        <Route path='timer' Component={Timer} />
+        <Route path="currencyconverter" Component={CurrencyConverter} />
+        <Route path='cryptocurrency'  Component={CryptoCurrency} />
       </Routes>
     </BrowserRouter>
     </ThemeProvider>

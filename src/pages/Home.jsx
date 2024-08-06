@@ -51,6 +51,15 @@ const Home = () => {
                   <Grid item xs={12} sm={6} md={4}>
                     <GameCard image={image} title={"Language Translator"} subTitle={"Language Translator"} route="/languagetranslator" />
                   </Grid>
+                  <Grid item xs={12} sm={6} md={4}>
+                    <GameCard image={image} title={"Timer"} subTitle={"Timer"} route="/timer" />
+                  </Grid>
+                  <Grid item xs={12} sm={6} md={4}>
+                    <GameCard image={image} title={"Currency Converter"} subTitle={"Currency Converter"} route="/currencyconverter" />
+                  </Grid>
+                  <Grid item xs={12} sm={6} md={4}>
+                    <GameCard image={image} title={"Crypto Currency"} subTitle={"Crypto Currency"} route="/cryptocurrency" />
+                  </Grid>
                 </Grid>
               </Grid>
             </Grid>
