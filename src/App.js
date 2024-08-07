@@ -34,6 +34,7 @@ function App() {
         <Route path='timer' Component={Timer} />
         <Route path="currencyconverter" Component={CurrencyConverter} />
         <Route path='cryptocurrency'  Component={CryptoCurrency} />
+  
       </Routes>
     </BrowserRouter>
     </ThemeProvider>
