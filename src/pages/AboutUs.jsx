@@ -4,10 +4,11 @@ import React from 'react';
 import { Grid, Box, Typography, Button, Container, Card, CardContent, CardMedia, IconButton } from '@mui/material';
 import DrawerAppBar from '../components/DrawerAppBar';
 import Footer from '../components/Footer';
-import { Facebook, Instagram, GitHub } from '@mui/icons-material'; // Assurez-vous d'avoir les icônes appropriées
+import { Facebook, Instagram, GitHub } from '@mui/icons-material'; 
 import { Howl } from 'howler';
 
 const clickSound = new Howl({ src: ['/assets/button.wav'] });
+
 const AboutUs = () => {
   return (
     <>
@@ -46,7 +47,7 @@ const AboutUs = () => {
                   mb: 3,
                 }}
               >
-                Welcome to Game Hub, where we bring you the best games for every taste and age. Our mission is to create an inclusive and exciting gaming experience for everyone. Whether you are a casual player or a dedicated gamer, we have something for you!
+                Welcome to Utility Hub, your All-in-One Utility App that offers a suite of tools for everyday needs: create avatars, convert currencies, track crypto, access a dictionary, translate languages, generate memes and QR codes, and more. Enhance productivity and fun with our comprehensive utilities!
               </Typography>
               <Button
                 variant="contained"
@@ -103,7 +104,7 @@ const AboutUs = () => {
               <CardMedia
                 component="img"
                 height="200"
-                image="/path/to/your/image.jpg" // Ajoutez le chemin de votre image
+                image="/path/to/your/image.jpg"
                 alt="About Us"
                 sx={{ objectFit: 'cover' }}
               />
@@ -132,7 +133,7 @@ const AboutUs = () => {
                     fontWeight: 400,
                   }}
                 >
-                  At Game Hub, we believe in the power of games to connect people and bring joy. Our vision is to be a leading platform that offers not only great games but also fosters a community where gamers can thrive.
+                  At Utility Hub, we believe in the power of versatile tools to simplify daily tasks and enhance productivity. Our vision is to be the leading platform providing comprehensive and user-friendly utilities that enrich lives.
                 </Typography>
               </CardContent>
             </Card>
